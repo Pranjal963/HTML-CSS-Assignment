@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#a{
+    height:80px;
+     width:80px;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+a:hover{
+    background-color:grey ;
+    padding: 5px;
+    border-radius: 10px;
+}
+nav div{
+    padding-right: 200px;
+}
+.b{
+    height:30px;
+    width:30px; 
+}
+.hero-image{
+    height:80%;
+    background-image: url(image/heroimg.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+}
+
+.hero-image button{
+    position:absolute;
+    bottom:5%;
+    left:2%;
+    width:350px;
+    height:50px;
+    color:white;
+    font-weight: bolder;
+    font-size: larger;
+    background-image: linear-gradient(to right, black , grey);
+}
+.para{
+    height:25%;
+   background-color: rgb(189, 186, 186);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.para p{
+    width:18%;
+    font-weight:500;
+}
+h1{
+    font-weight: bolder;
+    padding-top:80px;
+    padding-left:60px;
+    padding-bottom:80px;
+    font-size:50px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding-bottom: 40px;
+}
+.card{
+    width:300px;
+    height:400px;
+    overflow: hidden;
+    padding-bottom:20px;
+    margin:20px;
+}
+.card img{
+    width:100%;
+}
+.card-content h3{
+    font-weight: bolder;
+    padding: 16px;
+    text-align: left;
+}
+.card-content1 h3{
+    font-weight: bolder;
+    padding: 16px;
+    text-align: center;
+}
+.card-content2 h3{
+    font-weight: bolder;
+    padding: 16px;
+    text-align: right;
+}
+.card-content p{
+    font-weight: bolder;
+    text-align: left;
+    padding: 10px;
+}
+.card-content1 p{
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+}
+.card-content2 p{
+    font-weight: bolder;
+    text-align: right;
+    padding: 10px;
+}
+.card-content .btn{
+    text-decoration: none;
+    padding: 5px 16px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.card-content1 .btn{
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 16px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+    
+
+.card-content2 .btn{
+    text-align: right;
+    text-decoration: none;
+    padding: 5px 16px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
